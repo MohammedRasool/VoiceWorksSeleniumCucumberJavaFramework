@@ -6,7 +6,7 @@ Feature: Computer Database Scenarios
     And I verify that main header "Play sample application — Computer database" is displayed after logging in
 
 
-  Scenario Outline: TC_F_03: Create a New Computer
+  Scenario Outline: TC_F_03: Add a New Computer
     Then I click on the "Add a new computer" link
     Then I verify page subheader "Add a computer"
     Then I fill up the Computer details "<ComputerName>", "<IntroducedDate>", "<DiscontinuedDate>" and "<Company>"
