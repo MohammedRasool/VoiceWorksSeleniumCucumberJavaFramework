@@ -1,0 +1,10 @@
+#eclipse
+.settings/
+.project
+.classpath
+.idea/
+
+#Build Directories
+target/
+/test-output
+**/target/
