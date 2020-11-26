@@ -40,9 +40,9 @@ public class InitialSteps
     }
 
     @And("^I verify that main header \"([^\"]*)\" is displayed after logging in$")
-    public void iVerifyThatMainHeaderIsDisplayed(String GreetingMessage)
+    public void iVerifyThatMainHeaderIsDisplayed(String HeaderMessage)
     {
-        landingPage.verifyMainPageHeaderIsDisplayed(GreetingMessage);
+        landingPage.verifyMainPageHeaderIsDisplayed(HeaderMessage);
     }
 }
 

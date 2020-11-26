@@ -33,6 +33,6 @@ public class ComboBox
             e.printStackTrace();
         }
 
-        Assert.assertTrue("Value: \"" + Option + "\" HAS NOT BEEN SELECTED FROM THE COMBOBOX", optionPresent);
+        Assert.assertTrue("VALUE: \"" + Option + "\" HAS NOT BEEN SELECTED FROM THE COMBOBOX", optionPresent);
     }
 }

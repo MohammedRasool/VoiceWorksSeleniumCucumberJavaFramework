@@ -62,7 +62,7 @@ public class LandingPage
 
     public void verifyNoRecordOnTable(String Message)
     {
-        Assert.assertTrue("TABLE DOES IS NOT EMPTY !", lbl_TableMessage.getText().contains(Message));
+        Assert.assertTrue("THE TABLE IS NOT EMPTY !", lbl_TableMessage.getText().contains(Message));
     }
 
     public void verifyPageSubHeader(String SubHeaderName) throws InterruptedException
@@ -78,7 +78,7 @@ public class LandingPage
         By alertElement = By.xpath("//div[@class='alert-message warning']");
         explicitWait.waitForElement(alertElement, 2);
 
-        Assert.assertTrue("Login was unsuccessful", driver.findElement(By.xpath("//div[@class='alert-message warning']")).getText().contains(AlertMessage));
+        Assert.assertTrue("ALERT \""+AlertMessage+"\" WAS NOT DISPLAYED", driver.findElement(alertElement).getText().contains(AlertMessage));
     }
 
     public void verifyMainPageHeaderIsDisplayed(String MainHeaderName)

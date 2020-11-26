@@ -41,7 +41,7 @@ public class Buttons
             linkPresent = true;
         }
 
-        Assert.assertTrue("Button: \""+Caption+"\" IS NOT PRESENT",linkPresent);
+        Assert.assertTrue("LINK: \""+Caption+"\" IS NOT PRESENT",linkPresent);
     }
 
     public void clickButtonWithCaption(String Caption) throws InterruptedException
@@ -59,6 +59,6 @@ public class Buttons
             buttonPresent = true;
         }
 
-        Assert.assertTrue("Button: \""+Caption+"\" IS NOT PRESENT",buttonPresent);
+        Assert.assertTrue("BUTTON: \""+Caption+"\" IS NOT PRESENT",buttonPresent);
     }
 }
