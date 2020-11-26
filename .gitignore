@@ -1,9 +1,10 @@
-#eclipse
+#intellij & eclipse
 .settings/
 .project
 .classpath
 .idea/
-.iml
+*.iml
+*.DS_Store
 
 #Build Directories
 target/
